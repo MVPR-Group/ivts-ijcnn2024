@@ -5,8 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <style>
+      	tr.list-item::before {
+          content: "• ";
+        }
         .bordered{
-            border: 1px solid black; /* 添加边框 */
+            border: 1px solid black;
         }
         .headpage{
             background-image:url(bg.jpg);
@@ -55,6 +58,16 @@
             font-weight: bolder;
             color:black;
         }
+
+        .writer-container {
+          width: 100%;
+        }
+
+        .writer-container img {
+          float: left; /* 让图片浮动到左边 */
+          margin-right: 10px; /* 设置图片和文字之间的间距 */
+        }
+
     </style>
     <title>IVTS-IJCNN2024</title>
 </head>
@@ -76,119 +89,106 @@
     <p class="content">
         This session seeks contributions on the latest developments and emerging research in all aspects of intelligent vehicle and transportation systems. Specific topics include, but are not limited to:
     </p>
-    <table class="bordered">
+    <table class="content" border="1" cellspacing="0">
       <tbody>
         <tr>
-          <td>Advanced transportation information and communication systems</td>
-          <td>Advanced Transportation Management</td>
+          <td>• Advanced transportation information and communication systems</td>
+          <td>• Advanced Transportation Management</td>
         </tr>
         <tr>
-          <td>Air, Road, and Rail Traffic Management</td>
-          <td>Automated driving and driverless car</td>
+          <td>• Air, Road, and Rail Traffic Management</td>
+          <td>• Automated driving and driverless car</td>
         </tr>
         <tr>
-          <td>Cloud computing and big data in transportation and vehicle systems</td>
-          <td>Collision detection and avoidance</td>
+          <td>• Cloud computing and big data in transportation and vehicle systems</td>
+          <td>• Collision detection and avoidance</td>
         </tr>
         <tr>
-          <td>Connected vehicles of the future</td>
-          <td>Driver assistance and automation systems</td>
+          <td>• Connected vehicles of the future</td>
+          <td>• Driver assistance and automation systems</td>
         </tr>
         <tr>
-          <td>Reinforcement learning, neural dynamics and adaptive control in vehicle systems</td>
-          <td>Driver state detection and monitoring</td>
+          <td>• Reinforcement learning, neural dynamics and adaptive control in vehicle systems</td>
+          <td>• Driver state detection and monitoring</td>
         </tr>
         <tr>
-          <td>Learning and adaptive Control</td>
-          <td>Machine learning algorithm for multi-modal intelligent transport systems and services</td>
+          <td>• Learning and adaptive Control</td>
+          <td>• Machine learning algorithm for multi-modal intelligent transport systems and services</td>
         </tr>
         <tr>
-          <td>Object recognitions such as pedestrian detection, traffic sign detection and recognition</td>
-          <td>Personalized driver and traveler support systems</td>
+          <td>• Object recognitions such as pedestrian detection, traffic sign detection and recognition</td>
+          <td>• Personalized driver and traveler support systems</td>
         </tr>
         <tr>
-          <td>Pervasive and ubiquitous computing in logistics</td>
-          <td>Machine learning algorithm for driving route prediction and optimum path planning</td>
+          <td>• Pervasive and ubiquitous computing in logistics</td>
+          <td>• Machine learning algorithm for driving route prediction and optimum path planning</td>
         </tr>
         <tr>
-          <td>Simulation and forecasting models</td>
-          <td>Spatio-temporal traffic pattern recognition</td>
+          <td>• Simulation and forecasting models</td>
+          <td>• Spatio-temporal traffic pattern recognition</td>
         </tr>
         <tr>
-          <td>Trip modeling and driver speed prediction</td>
-          <td>Vehicle communications and connectivity</td>
+          <td>• Trip modeling and driver speed prediction</td>
+          <td>• Vehicle communications and connectivity</td>
         </tr>
         <tr>
-          <td>Machine learning algorithm for vehicle energy management and optimization in hybrid vehicles</td>
-          <td>Vehicle fault diagnostics and health monitoring</td>
+          <td>• Machine learning algorithm for vehicle energy management and optimization in hybrid vehicles</td>
+          <td>• Vehicle fault diagnostics and health monitoring</td>
         </tr>
       </tbody>
-<!--       <colgroup>
-        <col>
-        <col>
-      </colgroup> -->
     </table>
-<!--     <ul>
-        <li>Air, Road, and Rail Traffic Management</li>
-        <li>Automated driving and driverless car</li>
-        <li>Advanced transportation information and communication systems</li>
-        <li>Advanced Transportation Management</li>
-        <li>Cloud computing and big data in transportation and vehicle systems</li>
-        <li>Collision detection and avoidance</li>
-        <li>Connected vehicles of the future</li>
-        <li>Driver state detection and monitoring</li>
-        <li>Driver assistance and automation systems</li>
-        <li>Learning and adaptive Control</li>
-        <li>Multimodal intelligent transport systems and services</li>
-        <li>Object recognitions such as pedestrian detection, traffic sign detection and recognition</li>
-        <li>Route prediction and optimum path planning</li>
-        <li>Route guidance systems</li>
-        <li>Personalized driver and traveler support systems</li>
-        <li>Pervasive and ubiquitous computing in logistics</li>
-        <li>Simulation and forecasting models</li>
-        <li>Spatio-temporal traffic pattern recognition</li>
-        <li>Trip modeling and driver speed prediction</li>
-        <li>Vehicle communications, connectivity and security</li>
-        <li>Vehicle fault diagnostics and health monitoring</li>
-        <li>Vehicle energy management and optimization in hybrid vehicles</li>
-    </ul> -->
-    <h1>Organizers</h1>
-    <ul>
-        <li>Prof. Yi Lu Murphey, session chair (the corresponding contact:<a href="mailto: yilu@umich.edu">yilu@umich.edu</a>)</li>
-        <li>Other organizers, Dr.Xian Wei (<a href="mailto:xian.wei@tum.de">xian.wei@tum.de</a>), and Dr. Alexander Katriniok (<a href="de.alexander.katriniok@ieee.org">de.alexander.katriniok@ieee.org</a>), and Dr. Enrique Dominguez
-            (<a href="mailto:enriqued@lcc.uma.es">enriqued@lcc.uma.es</a>)</li>
-    </ul>
+    <h1>Session Organizers</h1>
+    <p class="content">
+    Prof. Yi Lu Murphey (<a href="mailto: yilu@umich.edu">yilu@umich.edu</a>), Dr.Xian Wei (<a href="mailto:xian.wei@tum.de">xian.wei@tum.de</a>), and Dr. Alexander Katriniok (<a href="de.alexander.katriniok@ieee.org">de.alexander.katriniok@ieee.org</a>), and Dr. Enrique Dominguez (<a href="mailto:enriqued@lcc.uma.es">enriqued@lcc.uma.es</a>).
+    </p>
     <h1>Short Biographies of all organizers</h1>
     <p class="content">
-        Session Chair, Dr. Yi Lu Murphey, <a href="mailto:yilu@umich.edu">yilu@umich.edu</a>.
         <ul>
-            <li><span class="keyname">Yi Lu Murphey</span> is the Paul K Trojan Collegiate Professor of Engineering and a Professor of Electrical and Computer Engineering at the University of Michigan-Dearborn.  
-                She is currently the director of the Intelligent Systems Lab and Driving Simulator Lab at the University of Michigan-Dearborn.  
-                She received a M.S. degree in computer science from Wayne State University, Detroit, Michigan, in 1983, 
-                and a Ph.D degree with a major in Computer Engineering and a minor in Control Engineering from the University of Michigan, Ann Arbor, Michigan, in 1989.  
-                During 2007 ~ 2020, Professor Murphey served as the Chair of the ECE department, Associate Dean for Graduate Education and Research, 
-                and the Vice Provost for Research at the University of Michigan-Dearborn.  Her current research interests are in the areas of machine learning, pattern recognition, 
-                computer vision, and intelligent systems with applications to optimal vehicle power management, ADAS, autonomous vehicles, intelligent transportation systems, 
-                and Alzheimer’s disease and dementia research.  Dr. Murphey is a fellow of IEEE, a Distinguished Lecturer for the IEEE Vehicular Society and IEEE Computational Intelligence Society.</li>
-        </ul>
+          <!-- copy -->
+          <div class="writer-container">
+            <img src="./pics/img1.png"/>
+              <span class="keyname" style="font-weight: bold;">Yi Lu Murphey</span> <span>is the Paul K Trojan Collegiate Professor of Engineering and a Professor of Electrical and Computer Engineering at the University of Michigan-Dearborn.  
+              She is currently the director of the Intelligent Systems Lab and Driving Simulator Lab at the University of Michigan-Dearborn.  
+              She received a M.S. degree in computer science from Wayne State University, Detroit, Michigan, in 1983, 
+              and a Ph.D degree with a major in Computer Engineering and a minor in Control Engineering from the University of Michigan, Ann Arbor, Michigan, in 1989.  
+              During 2007 ~ 2020, Professor Murphey served as the Chair of the ECE department, Associate Dean for Graduate Education and Research, 
+              and the Vice Provost for Research at the University of Michigan-Dearborn.  Her current research interests are in the areas of machine learning, pattern recognition, 
+              computer vision, and intelligent systems with applications to optimal vehicle power management, ADAS, autonomous vehicles, intelligent transportation systems, 
+              and Alzheimer’s disease and dementia research.  Dr. Murphey is a fellow of IEEE, a Distinguished Lecturer for the IEEE Vehicular Society and IEEE Computational Intelligence Society.</span>
+            </div>
+            <!-- copy -->
+        <!-- </ul>
     </p>
     <p class="content">
-        Session Co-organizers: Dr. Xian Wei (<a href="mailto:xian.wei@tum.de">xian.wei@tum.de</a>), Dr. Justin Dauwels (<a href="mailto:J.H.G.Dauwels@tudelft.nl">(J.H.G.Dauwels@tudelft.nl</a>), Dr. Hao Shen 
-        (<a href="mailto:shen@fortiss.org">shen@fortiss.org</a>), Dr. Enrique Dominguez (<a href="mailto:enriqued@lcc.uma.es">enriqued@lcc.uma.es</a>), and Dr. Fling (Finn) Tseng (<a href="mailto:ftseng@ford.com">ftseng@ford.com</a>).
-        <ul>
-            <li><span class="keyname">Xian Wei</span> received the M.S. degree in computer science from Shanghai Jiaotong University, Shanghai, China, 
+        <ul> -->
+          <div class="writer-container">
+          <img src="./pics/img2.png"/>
+            <span class="keyname" style="font-weight: bold;">Xian Wei</span> <span>received the M.S. degree in computer science from Shanghai Jiaotong University, Shanghai, China, 
                 and received the Ph.D. degree in computer engineering from the Technical University of Munich, Munich, Germany. Currently, 
                 he is a research professor in the Software Engineering Institute (SEI) at the East China Normal University, Shanghai, China. 
                 He has been working as a principal investigator (PI) in Fujian Institute of Research on the Structure of Matter, Chinese Academy of Sciences (CAS), 
                 since July 2017. His research interests focus on geometric machine learning and time series analysis. The applications include multi-sensor fusion for intelligent car, 
                 robotic vision, images and point clouds modeling, synthesis, recognition and semantics. He has authored over 100 publications in refereed journals and conference proceedings. 
-                He is a senior member of IEEE, IET, INSAI, CAA and CCF.</li>
-            <li><span class="keyname">Justin Dauwels</span>is an Associate Professor at the TU Delft (Signals and Systems, Department of Microelectronics). His research interests are in data analytics with applications to intelligent transportation systems, autonomous systems, and analysis of human behaviour and physiology. He obtained his PhD degree in electrical engineering at the Swiss Polytechnical Institute of Technology (ETH) in Zurich in December 2005. Moreover, he was a postdoctoral fellow at the RIKEN Brain Science Institute (2006-2007) and a research scientist at the Massachusetts Institute of Technology (2008-2010). He has been elected as IEEE SPS 2024 Distinguished Lecturer. He has been a JSPS postdoctoral fellow (2007), a BAEF fellow (2008), a Henri-Benedictus Fellow of the King Baudouin Foundation (2008), and a JSPS invited fellow (2010, 2011). 
+                He is a senior member of IEEE, IET, INSAI, CAA and CCF.</span>
+          </div>
+          <div class="writer-container">
+          <img src="./pics/img3.png"/>
+            <span class="keyname" style="font-weight: bold;">Justin Dauwels</span> <span>is an Associate Professor at the TU Delft (Signals and Systems, Department of Microelectronics). His research interests are in data analytics with applications to intelligent transportation systems, autonomous systems, and analysis of human behaviour and physiology. He obtained his PhD degree in electrical engineering at the Swiss Polytechnical Institute of Technology (ETH) in Zurich in December 2005. Moreover, he was a postdoctoral fellow at the RIKEN Brain Science Institute (2006-2007) and a research scientist at the Massachusetts Institute of Technology (2008-2010). He has been elected as IEEE SPS 2024 Distinguished Lecturer. He has been a JSPS postdoctoral fellow (2007), a BAEF fellow (2008), a Henri-Benedictus Fellow of the King Baudouin Foundation (2008), and a JSPS invited fellow (2010, 2011). 
 
-                <br/>He served as Chairman of the IEEE CIS Chapter in Singapore from 2018 to 2020, and served as Associate Editor of the IEEE Transactions on Signal Processing (2018 - 2023), and serves currently as Associate Editor (2021-2023) and Subject Editor (since 2023) of the Elsevier journal Signal Processing, Area Editor for the IEEE Signal Processing Magazine (since 2023), member of the Editorial Advisory Board of the International Journal of Neural Systems (since 2021), and organizer of IEEE conferences and special sessions. He was also Elected Member of the IEEE Signal Processing Theory and Methods Technical Committee and IEEE Biomedical Signal Processing Technical Committee (both in 2018-2023), and is currently Elected Member of the IEEE Machine Learning for Signal Processing Technical Committee and the IEEE Emerging Transportation Technology Testing (ET3) Technical Committee. His research team has won several best paper awards at international conferences and journals. His academic lab has spawned four startups across a range of industries, ranging from AI for healthcare to autonomous vehicles.</li>
-            <li><span class="keyname">Hao Shen</span> received his Ph.D. in Engineering from the Australian National University, Australia, in 2008. From December 2008 to September 2017, he was a post-doctoral researcher at the Chair for Data Processing, Technical University of Munich, Germany. In October 2017, he joined fortiss GmbH, Research Institute of the Free State Bavaria, Munich, Germany, as the leader of Machine Learning. Currently, he is also Privatdozent (Adjunct Teaching Professor) at Department of Computer Engineering, Technical University of Munich, Germany. His research interests include machine learning for signal processing, e.g., geometric optimization, blind signal separation, sparse representation, deep representation learning, and deep reinforcement learning.</li>
-            <li><span class="keyname">Enrique Dominguez</span> is a Full Professor in Artificial Intelligence at the University of Malaga (Spain), and a member of the European Innovation Partnership on Smart Cities and Communities (EIP-SCC). He has collaborated with several companies (Airzone, Fujitsu, Altra Corporacion, Fundación Andaluza de la Seguridad Social, Evita, Acerca, ...) leading the computer vision workgroup of different research projects. Dominguez is author of over 50 peer-reviewed publications, he also serves as reviewer of several journals such as IEEE Trans. of Neural Networks and Learning Systems, Neurocomputing, Neural Networks, International Journal of Parallel, Emergent and Distributed Systems, Neural Computing & Applications, Optimization, etc. and an associate editor of the International Journal of Computer Vision and Image Processing (IJCVIP). In addition, he has participated chairing several special sessions or as traditional member of the program committee of several conferences such as SSCI, WCCI, IJCNN, IWANN, BMIC, ICANN, ASC, EURO and others. His research interests include machine learning, deep learning, intelligent systems, computer vision, mobility and transport, intelligent logistics, and urban sustainable mobility.</li>
-            <li><span class="keyname">Fling (Finn) Tseng</span> received dual M.S. Mechanical Engineering and Industrial & Operations Engineering from the University of Michigan, Ann Arbor in 2003 and Ph.D. with a major in Industrial and System Engineering from the Wayne State University in 2017. As a full-time Research Engineer at Ford Research and Advanced Engineering since 2007, he has involved in both research and product development for various applications related to diagnostics & prognostics of systems and human behaviors, recommendation systems for user intents and preferences and adaptive user coaching systems. His research interests include online evolving AIML Systems, Adaptive Knowledge-based systems and learning mechanisms for partially observable patterns.</li>
+                <br/>He served as Chairman of the IEEE CIS Chapter in Singapore from 2018 to 2020, and served as Associate Editor of the IEEE Transactions on Signal Processing (2018 - 2023), and serves currently as Associate Editor (2021-2023) and Subject Editor (since 2023) of the Elsevier journal Signal Processing, Area Editor for the IEEE Signal Processing Magazine (since 2023), member of the Editorial Advisory Board of the International Journal of Neural Systems (since 2021), and organizer of IEEE conferences and special sessions. He was also Elected Member of the IEEE Signal Processing Theory and Methods Technical Committee and IEEE Biomedical Signal Processing Technical Committee (both in 2018-2023), and is currently Elected Member of the IEEE Machine Learning for Signal Processing Technical Committee and the IEEE Emerging Transportation Technology Testing (ET3) Technical Committee. His research team has won several best paper awards at international conferences and journals. His academic lab has spawned four startups across a range of industries, ranging from AI for healthcare to autonomous vehicles.</span>
+          </div>
+          <div class="writer-container">
+          <img src="./pics/img4.png"/>
+            <span class="keyname" style="font-weight: bold;">Hao Shen</span> <span>received his Ph.D. in Engineering from the Australian National University, Australia, in 2008. From December 2008 to September 2017, he was a post-doctoral researcher at the Chair for Data Processing, Technical University of Munich, Germany. In October 2017, he joined fortiss GmbH, Research Institute of the Free State Bavaria, Munich, Germany, as the leader of Machine Learning. Currently, he is also Privatdozent (Adjunct Teaching Professor) at Department of Computer Engineering, Technical University of Munich, Germany. His research interests include machine learning for signal processing, e.g., geometric optimization, blind signal separation, sparse representation, deep representation learning, and deep reinforcement learning.</span>
+          </div>
+          <div class="writer-container">
+          <img src="./pics/img5.png"/>
+            <span class="keyname" style="font-weight: bold;">Enrique Dominguez</span> <span>is a Full Professor in Artificial Intelligence at the University of Malaga (Spain), and a member of the European Innovation Partnership on Smart Cities and Communities (EIP-SCC). He has collaborated with several companies (Airzone, Fujitsu, Altra Corporacion, Fundación Andaluza de la Seguridad Social, Evita, Acerca, ...) leading the computer vision workgroup of different research projects. Dominguez is author of over 50 peer-reviewed publications, he also serves as reviewer of several journals such as IEEE Trans. of Neural Networks and Learning Systems, Neurocomputing, Neural Networks, International Journal of Parallel, Emergent and Distributed Systems, Neural Computing & Applications, Optimization, etc. and an associate editor of the International Journal of Computer Vision and Image Processing (IJCVIP). In addition, he has participated chairing several special sessions or as traditional member of the program committee of several conferences such as SSCI, WCCI, IJCNN, IWANN, BMIC, ICANN, ASC, EURO and others. His research interests include machine learning, deep learning, intelligent systems, computer vision, mobility and transport, intelligent logistics, and urban sustainable mobility.</span>
+          </div>
+          <div class="writer-container">
+          <img src="./pics/img6.png"/>
+            <span class="keyname" style="font-weight: bold;">Fling (Finn) Tseng</span> <span>received dual M.S. Mechanical Engineering and Industrial & Operations Engineering from the University of Michigan, Ann Arbor in 2003 and Ph.D. with a major in Industrial and System Engineering from the Wayne State University in 2017. As a full-time Research Engineer at Ford Research and Advanced Engineering since 2007, he has involved in both research and product development for various applications related to diagnostics & prognostics of systems and human behaviors, recommendation systems for user intents and preferences and adaptive user coaching systems. His research interests include online evolving AIML Systems, Adaptive Knowledge-based systems and learning mechanisms for partially observable patterns.</span>
+          </div>
         </ul>
     </p>
     <h1>Important Dates</h1>
